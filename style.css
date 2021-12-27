@@ -1,0 +1,252 @@
+.header {
+width: 100%;
+background-image: url(assets/main-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.navbar {
+    opacity: 0.8;
+    width: 100%;
+}
+
+.mid-text {
+    margin-top: 105px;
+}
+
+#title-1 {
+    text-align: center;
+    font-size: 80px;
+    color: azure !important;
+    font: optional;
+}
+
+#sub-title {
+    text-align: center;
+    font-size: 24px;
+    color: azure !important;
+    font: optional;
+    margin-top: 40px;
+}
+
+#play-btn {
+    background-color: rgb(247, 193, 75);
+    color: black;
+    margin-top: 50px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-menu {
+    margin-right: 50px;
+}
+
+.header-scroll-link-wrapper {
+    text-decoration: none;
+    color: white;
+}
+
+.story-scroll-down a {
+    text-decoration: none;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: auto;
+}
+
+.story-scroll-down a:hover {
+    color: wheat;
+    text-decoration: none;
+}
+
+.header-scroll-toggle {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.story-scroll-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi-caret-down-fill {
+    margin-left: 20px;
+}
+
+.galery {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/the-games-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.special-1 {
+    display: flex;
+    font-size: 1.5rem;
+    color: azure;
+}
+
+.the-games {
+    display: flex;
+    font-size: 3rem;
+    color: azure;
+}
+
+
+.w-100 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 2rem;
+    margin-right: 10rem; */
+    padding: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+/* .carousel-inner {
+    margin-top: 10%;
+} */
+
+.sub-judul {
+    padding-right: 10%;
+}
+
+
+
+.galery-content {
+    width: 90vw ;
+    padding-top: 10rem;
+}
+
+.gl-left-side {
+
+    color: white;
+    max-width: 30vw !important;
+}
+
+.gl-right-side {
+    margin-top: 5rem;
+}
+
+.carousel-control-prev {
+    padding-right: 5rem;
+}
+
+.carousel-control-next {
+    padding-left: 5rem;
+}
+
+.carousel-indicators > li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color:none;
+    border-style: solid;
+    border-color: white;
+    
+  }
+
+
+.features {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/features.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    }
+
+.sub-judul-features {
+    text-align: left;
+    justify-content: center;
+    margin-left: 44rem;
+    margin-top: 8em;
+    color: white;
+
+    }
+
+.timeline {
+    border-left: 4px solid;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px auto;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 50%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+   }
+h3, h2  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.4em;
+    color: white;
+   }
+
+p {
+    color: white;
+}   
+.event {
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    position: relative;
+   }
+    .event:last-of-type {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none;
+   }
+    .event::before {
+        position: absolute;
+        display: block;
+        top: 0;
+   }
+
+   .event::after  {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+    .event::before {
+        left: -217.5px;
+        color: rgba(255,255,255,0.4);
+        content: attr(data-date);
+        text-align: right;
+        font-weight: 100;
+        font-size: 0.9em;
+        min-width: 120px;
+   }
+
+    .event::after {
+        box-shadow: 0 0 0 4px #ffffff;
+        left: -57.85px;
+        background: #313534;
+        border-radius: 50%;
+        height: 11px;
+        width: 11px;
+        content: "";
+        top: 5px;
+   }
+
+   .tl-event {
+       margin-left: 30rem;
+   }
+    
