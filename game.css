@@ -1,0 +1,70 @@
+.header {
+    background-color: #b89d68;
+}
+
+body {
+    background-color: #b89d68;
+}
+
+.col-6 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; 
+}
+
+.refresh-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.textJudul {
+    font-weight: bold;
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+
+.iconsize {
+    width: 125px;
+    height: 125px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: red;
+    width: 200px;
+    height: 120;
+}
+
+.greenbox {
+background-color: green;
+color: white;
+}
+
+.greybox {
+background-color: grey;
+color: white;
+}
+
+.pilihan {
+    background-color: #C4C4C4;
+    border-radius: 20px;
+}
+
+

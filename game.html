@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>ROCK, PAPER, SCISSORS !!</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-style bd-navbar">
+            <a href="" class="left-btn-exp"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="48" height="48"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#665923"><path d="M99.5665,150.5v0c9.5245,0 15.20767,-10.61383 9.92583,-18.54017l-30.6375,-45.95983l30.6375,-45.95983c5.28183,-7.92633 -0.40133,-18.54017 -9.92583,-18.54017v0c-3.98467,0 -7.71133,1.99233 -9.92583,5.3105l-34.15633,51.24167c-3.21067,4.816 -3.21067,11.08683 0,15.90283l34.15633,51.24167c2.2145,3.311 5.94117,5.30333 9.92583,5.30333z"></path></g></g></svg></a>
+            <a class="navbar-brand ml-5" href="#" ><img src="./assets/logogame.png" width="50" height="50" alt=""></a>
+            <div>
+                <ul class="navbar-nav mr-auto">
+                    <li><h1 class="textJudul">ROCK PAPER SCISSORS</h1></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div class="container">
+        <div class="row">
+          <div class="col logo">
+            <p>PLAYER 1</p>
+          </div>
+          <div class="col-6">
+          </div>
+          <div class="col">
+            <p>COMP</p>
+          </div>
+        </div>
+        <br>
+    <div class="container">
+        <div class="row">
+          <div class="col logo">
+            <input type="image" src="./assets/batu.png" alt="batu" class="iconsize p-batu" >
+          </div>
+          <div class="col-6">
+          </div>
+          <div class="col">
+            <input type="image" src="./assets/batu.png" alt="batu"  class="iconsize comp">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col logo">
+            <input type="image" src="./assets/kertas.png" alt="kertas"  class="iconsize p-kertas">
+          </div>
+<!-- MID STATUS -->
+          <div class="col-6">
+            <p class="status">VS</p>
+          </div>
+<!-- MID STATUS -->
+          <div class="col">
+            <input type="image" src="./assets/kertas.png" alt="kertas"  class="iconsize comp">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col logo">
+              <input type="image" src="./assets/gunting.png" alt="gunting"  class="iconsize p-gunting">
+            </div>
+            <div class="col-6">
+            </div>
+            <div class="col">
+              <input type="image" src="./assets/gunting.png" alt="gunting"  class="iconsize comp">
+            </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col refresh-btn">
+          <input type="image" src="./assets/refresh.png" alt="" width="50px" height="50px" class="reload">
+        </div>
+      </div>
+      <script type="module" src="game.js"></script>
+</body>
+</html>
